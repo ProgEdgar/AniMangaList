@@ -1,3 +1,17 @@
+.nav-link {
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#main-container {
+    padding-top: 100px;
+}
+
+
+
+
+/*
 main > .container, main > .container-fluid
 {
     padding: 70px 15px 20px;
@@ -19,7 +33,7 @@ main > .container, main > .container-fluid
     font-style: italic;
 }
 
-/* add sorting icons to gridview sort links */
+/* add sorting icons to gridview sort links *//*
 a.asc:after, a.desc:after {
     content: '';
     left: 3px;
@@ -65,7 +79,7 @@ a.desc:after {
     margin: 0 0 15px 0;
 }
 
-/* align the logout "link" (button in form) of the navbar */
+/* align the logout "link" (button in form) of the navbar *//*
 .navbar form > button.logout {
     padding-top: 7px;
     color: rgba(255, 255, 255, 0.5);
@@ -90,7 +104,7 @@ a.desc:after {
     outline: none;
 }
 
-/* style breadcrumb widget as in previous bootstrap versions */
+/* style breadcrumb widget as in previous bootstrap versions *//*
 .breadcrumb {
     background-color: var(--bs-gray-200);
     border-radius: .25rem;

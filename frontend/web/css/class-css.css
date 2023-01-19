@@ -1,0 +1,17 @@
+.bold {
+    font-weight: bold !important;
+}
+
+.text-30 {
+    font-size: 30px !important;
+}
+
+.rad-b-0 {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.rad-t-50 {
+    border-top-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+}

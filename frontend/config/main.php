@@ -36,14 +36,20 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
+        'urlManagerBackend' => [
+            'class' => 'yii\web\urlManager',
+            'baseUrl' => 'http://localhost/AniMangaList/backend/web',
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+        ],
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/' => 'site/index',
+                'home' => 'site/index',
             ],
         ],
-        */
     ],
     'params' => $params,
 ];
